@@ -100,6 +100,20 @@ let ucetambolunenler,
   tekraredensayilar;
 
 // 3a çözümü
+enkucuk = sayilar[0];
+for(let i ; i< sayilar.length ; i++){
+  if(enkucuk > sayilar[i]){
+    enkucuk = sayilar[i];
+  }
+}
+
+enbuyuk = sayilar[0];
+for(let i ; i< sayilar.length ; i++){
+  if(enbuyuk < sayilar[i]){
+    enbuyuk = sayilar[i];
+  }
+}
+
 
 /* kodlar buraya */
 
